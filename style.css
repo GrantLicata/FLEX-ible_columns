@@ -1,0 +1,35 @@
+* {
+    margin: 5px;
+}
+
+.row {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+}
+
+.col {
+    flex: 1;
+    flex-grow: 1;
+    background-color: rgb(84, 142, 148);
+    color: white;
+    padding: 25px 0px 25px 30px;
+}
+
+.col-2 {
+    flex: 1;
+    flex-grow: 2;
+    background-color: rgb(84, 142, 148);
+    color: white;
+    padding: 25px 0px 25px 30px;
+}
+
+.col-3 {
+    flex: 1;
+    flex-grow: 3;
+    background-color: rgb(84, 142, 148);
+    color: white;
+    padding: 25px 0px 25px 30px;
+}
+
